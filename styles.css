@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+#elements {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.draggable {
+    padding: 10px 15px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+}
+
+#canvas {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    border: 2px dashed #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#editor {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.hidden {
+    display: none;
+}
